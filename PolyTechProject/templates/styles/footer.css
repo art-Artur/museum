@@ -1,0 +1,21 @@
+footer {
+  background-color: #292B44;
+  color: #EDEDED;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-side img, .right-side img {
+  height: 20px;
+  width: 20px;
+}
+
+.left-side p, a {
+  margin: 0;
+  color: #AFAFAF;
+}
+
+.right-side a {
+  margin-left: 10px;
+}
