@@ -1,6 +1,7 @@
 const titles = document.getElementsByClassName('person__title');
 const titlesArray = Array.from(titles);
-const modalWindow = document.querySelector('.describe')
+const modalWindow = document.querySelector('.describe');
+const modalWindow2 = document.querySelector('.describe2');
 console.log(titles);
 
 titlesArray.forEach(element => {
@@ -9,10 +10,11 @@ titlesArray.forEach(element => {
 });
 
 function openModal(){
-    console.log("true");
-    modalWindow.style.display="block";
+    this.nextElementSibling.nextElementSibling.style.display="block";
+    // modalWindow.style.display="block";
 }
 
-function closeModal(){;
-    modalWindow.style.display="none";
+function closeModal(){
+    this.nextElementSibling.nextElementSibling.style.display="none";
+    // modalWindow.style.display="none";
 }

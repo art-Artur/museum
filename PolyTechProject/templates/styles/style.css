@@ -698,13 +698,23 @@ h1, h2, h3, h4, h5, p {
     }
   }
 
-  .describe {
+  .describe, .describe2 {
     display: none;
     position: absolute;
-    top: 800px;
-    height: 600px;
+    top: 700px;
+    /* height: 650px; */
     width: 600px;
-    background-color: #6854aed6;
+    background-color: #a0a6dc;
     border-radius: 50px;
+    font-size: 28px;
+    padding: 1.5%;
+    line-height: 140%;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
   }
- 
+  .describe2 {
+    /* right: 50px; */
+  }
+ .bold-text {
+  font-weight: 700;
+ }
