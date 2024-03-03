@@ -697,5 +697,14 @@ h1, h2, h3, h4, h5, p {
       grid-template-columns: 1fr 1fr;
     }
   }
-  
+
+  .describe {
+    display: none;
+    position: absolute;
+    top: 800px;
+    height: 600px;
+    width: 600px;
+    background-color: #6854aed6;
+    border-radius: 50px;
+  }
  
