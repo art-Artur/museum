@@ -561,11 +561,6 @@ h1, h2, h3, h4, h5, p {
   }
 
  /* person*/ 
- 
- .person {
-
- }
- 
  .person__title {
    padding-top: 1rem;
    padding-bottom: 1rem;
@@ -604,7 +599,6 @@ h1, h2, h3, h4, h5, p {
     display: grid;
     gap: 2rem;
   }
-  
   @media (min-width: 768px) {
     .step-container__inner {
       grid-template-columns: 1fr 1fr 1fr 1fr;

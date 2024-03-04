@@ -8,9 +8,14 @@ footer {
 
 .left-side img, .right-side img {
   height: 20px;
-  width: 20px;
 }
-
+.class-info{
+  display: flex;
+  justify-content: space-between;
+}
+.class-info a{
+  align-self: flex-start;
+}
 .left-side p, a {
   margin: 0;
   color: #AFAFAF;
