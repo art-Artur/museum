@@ -6,16 +6,24 @@ footer {
   padding: 20px;
 }
 
-.left-side img, .right-side img {
-  height: 20px;
-  width: 20px;
-}
-
 .left-side p, a {
-  margin: 0;
+  font-size: 21px;
+  text-decoration: none;
   color: #AFAFAF;
 }
 
-.right-side a {
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  height: 24px;
+  margin-left: 0;
+  text-decoration: none;
+}
+.text-footer{
+  width: 800px;
+}
+.right-side img{
+  height: 48px;
   margin-left: 10px;
 }
