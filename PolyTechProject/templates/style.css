@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, p {
     padding-top: 2rem;
     padding-bottom: 2rem;
     min-height: 300px;
-    background-image: url(../image/hero.jpg);
+    background-image: url(../templates/image/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -551,12 +551,6 @@ h1, h2, h3, h4, h5, p {
     }
   }
 
- /* person*/ 
- 
- .person {
-
- }
- 
  .person__title {
    padding-top: 1rem;
    padding-bottom: 1rem;
