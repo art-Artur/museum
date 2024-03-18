@@ -39,7 +39,7 @@
     height: 100%;
     right: -10px;
     top: 0;
-    background-image: url(../img/photoArrow.png);
+    background-image: url(image/photoArrow.png);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .bg_1 {
-  background-image: url(../../image/bg-photo.webp);
+  background-image: url(image/bg-photo.webp);
 }
 
 .round-image {
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, p {
     padding-top: 2rem;
     padding-bottom: 2rem;
     min-height: 300px;
-    background-image: url(../templates/image/hero.jpg);
+    background-image: url(/image/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
