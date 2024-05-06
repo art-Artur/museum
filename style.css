@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, p {
   border-radius: 3rem;
   background-color: white;
   border: 2px solid #483B78;
-  height: 23rem;
+  height: 25rem;
 }
 .section-h{
   margin-left: 2rem;
@@ -225,11 +225,12 @@ h1, h2, h3, h4, h5, p {
   
   .content__title {
     color: #BDAEF4;
-    text-shadow: 2px 2px 2px #959CE9;
+    text-shadow: 2px 2px 2px #483B78;
     font-size: 1.3rem;
     margin-bottom: 1rem;
+    padding-top: 20px;
+    margin-left: 20px;
   }
-  
   .content__text {
     line-height: 1.4;
   }
@@ -256,10 +257,17 @@ h1, h2, h3, h4, h5, p {
 }
 
 .fon-violet{
+  border-radius: 10%;
   background-color: #ded7fa;
   padding: 3rem;
   padding-bottom: 0rem;
   width: 1240px;
+
+}
+.container-flexx{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 
 }
 
@@ -364,7 +372,8 @@ h1, h2, h3, h4, h5, p {
     width: 70px;
     height: 70px;
     margin-top: 3px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
   
   }
   
