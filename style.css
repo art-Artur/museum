@@ -14,6 +14,9 @@
 @import url(./blocks/person.css); */
 
 /* about */
+*{
+  background-color: aqua;
+}
 .about {
     padding-top: 3rem;
     padding-bottom: 3rem;
