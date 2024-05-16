@@ -726,9 +726,153 @@ h1, h2, h3, h4, h5, p {
     padding: 1.5%;
     line-height: 140%;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;
   }
  
  .bold-text {
   font-weight: 700;
  }
+ 
+#site-header {
+  height: 9.07vh;
+  width: 100%;
+  background-color: rgb(151, 174, 216);
+}
+.cover__image {
+  position: relative;
+  width: 100%;
+  z-index: -200;
+}
+.cover__background {
+  background-color: rgba(217, 217, 217, 0.82);
+  z-index: -100;
+  height: 116.5vh;
+  width: 100%;
+  position: absolute;
+}
+.cover {
+  width: 100%;
+}
+.cover__title,
+.cover__button {
+  /* font-size: 5.4vh; */
+  font-size: 54px;
+  font-weight: bold;
+  color: #483b78;
+  top: 200px;
+  left: 103px;
+  position: absolute;
+}
+.cover__text,
+.describe__text1,
+.describe__text2,
+.describe__text3 {
+  font-weight: 600;
+  color: #3e3e3f;
+  font-size: 30px;
+}
+.cover__text {
+  position: absolute;
+  width: 914px;
+  height: 520px;
+  top: 336px;
+  left: 92px;
+}
+.describe {
+  position: relative;
+  background-color: rgba(238, 238, 244, 1);
+  width: 100%;
+  height: 247vh;
+  /* min-height: 2427px;
+  max-height: 2627px; */
+}
+.cover__button {
+  z-index: 200;
+  top: 80%;
+  left: 103px;
+  height: 68px;
+  width: 291px;
+}
+.cover__button,
+.describe__button-container__button {
+  margin-top: 200px;
+  background-color: #6251a2;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  color: white;
+  border: none;
+  border-radius: 34px;
+}
+.describe__button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  top: 7%
+}
+.describe__button-container__button {
+  width: 594px;
+  height: 77px;
+}
+button,
+button:active,
+button:focus {
+  border: none;
+}
+.describe__text1 {
+  padding: 2.5%;
+  width: 1092px;
+  height: 410px;
+}
+.describe__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.describe__image-container__img1 {
+  position: relative;
+}
+.describe__text2 {
+  text-align: right;
+  position: relative;
+  height: 488px;
+  width: 1120px;
+  float: right;
+  padding: 2.5%;
+}
+.describe__text3 {
+  height: 540px;
+  width: 725px;
+  float: left;
+  padding: 2.5%;
+  position: relative;
+}
+.describe__image-container__img2 {
+  position: relative;
+  float: right;
+  margin-right: 2.5%;
+  margin-top: 10%;
+}
+.grid-section-11{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 55px;
+}
+.grid-item{
+  width: 400px;
+  height: 300px;
+  background-color:  rgb(151, 174, 216);
+}
+#wet{
+  margin: 50px;
+}
+.grid-iter{
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  background-color: #6251a2;
+  color: white;
+}
